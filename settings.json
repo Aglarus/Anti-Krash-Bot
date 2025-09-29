@@ -1,0 +1,35 @@
+{
+  "mentionProtection": {
+    "enabled": true,
+    "maxMentions": 5,
+    "timeWindow": 10000
+  },
+  "channelProtection": {
+    "enabled": true,
+    "maxChannelsPerMinute": 3
+  },
+  "roleProtection": {
+    "enabled": true,
+    "maxRolesPerMinute": 3
+  },
+  "categoryProtection": {
+    "enabled": true,
+    "maxCategoriesPerMinute": 2
+  },
+  "punishment": {
+    "users": {
+      "ban": false,
+      "mute": true,
+      "muteDuration": 7,
+      "removeRoles": true
+    },
+    "bots": {
+      "ban": true,
+      "removeRoles": true
+    }
+  },
+  "whitelist": [
+    "1277476579286585531",
+    "1386604131631890462"
+  ]
+}
